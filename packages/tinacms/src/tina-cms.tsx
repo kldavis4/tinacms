@@ -410,7 +410,7 @@ export const TinaDataProvider = ({
         state: { payload: state.payload },
       }}
     >
-      {useUnstableFormify && request?.query ? (
+      {useUnstableFormify ? (
         <FormRegistrarUnstable
           key={request?.query} // unload on page/query change
           request={request}
@@ -464,15 +464,24 @@ const FormRegistrar = ({
   ) : null
 }
 
-const FormRegistrarUnstable = ({
-  request,
-  formifyCallback,
-  onPayloadStateChange,
-}: {
+type FormRegistrarProps = {
   request: { query: string; variables: object }
   formifyCallback: formifyCallback
   onPayloadStateChange: ({ payload: object, isLoading: boolean }) => void
-}) => {
+}
+
+const FormRegistrarUnstable = (props: FormRegistrarProps) => {
+  if (!props.request?.query) {
+    return null
+  }
+
+  return <FormRegistrarUnstableInner {...props} />
+}
+const FormRegistrarUnstableInner = ({
+  request,
+  formifyCallback,
+  onPayloadStateChange,
+}: FormRegistrarProps) => {
   const cms = useCMS()
 
   const [payload, isLoading] = useGraphqlFormsUnstable({
