@@ -410,7 +410,7 @@ export const TinaDataProvider = ({
         state: { payload: state.payload },
       }}
     >
-      {useUnstableFormify ? (
+      {useUnstableFormify && request?.query ? (
         <FormRegistrarUnstable
           key={request?.query} // unload on page/query change
           request={request}

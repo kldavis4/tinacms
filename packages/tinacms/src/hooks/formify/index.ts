@@ -109,26 +109,15 @@ export const useFormify = ({
   React.useEffect(() => {
     const run = async () => {
       const schema = await cms.api.tina.getSchema()
-      if (!query) {
-        // Nothing from the query can be formified
-        dispatch({
-          type: 'done',
-        })
-      } else {
-        try {
-          const result = await formify({
-            schema,
-            query,
-            getOptimizedQuery: cms.api.tina.getOptimizedQuery,
-          })
-          dispatch({
-            type: 'addDocumentBlueprints',
-            value: result,
-          })
-        } catch (e) {
-          console.log(e)
-        }
-      }
+      const result = await formify({
+        schema,
+        query,
+        getOptimizedQuery: cms.api.tina.getOptimizedQuery,
+      })
+      dispatch({
+        type: 'addDocumentBlueprints',
+        value: result,
+      })
     }
     if (state.status === 'initialized') {
       run()
