@@ -3133,23 +3133,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@headlessui/react@npm:^1.4.1":
-  version: 1.4.1
-  resolution: "@headlessui/react@npm:1.4.1"
+"@headlessui/react@npm:^1.4.3":
+  version: 1.5.0
+  resolution: "@headlessui/react@npm:1.5.0"
   peerDependencies:
     react: ^16 || ^17 || ^18
     react-dom: ^16 || ^17 || ^18
-  checksum: f883749ff2dc40d00b3823301c330f18a0864aa5b8847d07c65d1a8fddd3b993ba90dbb81bd8b0743fe6b050ba0be4e56f7d1d9ab43a324de56766139826ebe2
-  languageName: node
-  linkType: hard
-
-"@headlessui/react@npm:^1.4.2":
-  version: 1.4.2
-  resolution: "@headlessui/react@npm:1.4.2"
-  peerDependencies:
-    react: ^16 || ^17 || ^18
-    react-dom: ^16 || ^17 || ^18
-  checksum: b9987c9331aa1dccd2c72bc042cbbc1b74481523f49fa1fbd333d562dbfebc54c3cb49d6b3a93050f817caf1d77c8e30ac79eef215a34f94fcfec832e07d3ea8
+  checksum: a177711f60ed0053844e0f0ce8dbcf0a47b1ac62eee6ea29760ecf81599c20e5b0be6d0c4749979c65e24a120c7d54f5612a5a57db8999b9db19cd1abebc5c2b
   languageName: node
   linkType: hard
 
@@ -5251,7 +5241,6 @@ __metadata:
     "@graphql-codegen/visitor-plugin-common": ^2.4.0
     "@graphql-tools/graphql-file-loader": ^7.2.0
     "@graphql-tools/load": ^7.3.2
-    "@tinacms/datalayer": "workspace:*"
     "@tinacms/graphql": "workspace:*"
     "@tinacms/metrics": "workspace:*"
     "@tinacms/scripts": "workspace:*"
@@ -5289,7 +5278,7 @@ __metadata:
     fs-extra: ^9.0.1
     graphql: ^15.1.0
     jest: ^27.0.6
-    js-yaml: ^4.0.0
+    js-yaml: ^4.1.0
     lodash: ^4.17.19
     lodash.get: ^4.4.2
     log4js: ^6.4.0
@@ -5331,7 +5320,7 @@ __metadata:
     jest-diff: 27.0.6
     jest-file-snapshot: ^0.5.0
     jest-matcher-utils: 27.0.6
-    js-yaml: ^3.14.0
+    js-yaml: ^4.1.0
     jsonpath-plus: ^6.0.1
     level: ^7.0.1
     leveldown: ^6.1.0
@@ -5372,7 +5361,7 @@ __metadata:
     dataloader: ^2.0.0
     date-fns: ^2.21.1
     encoding-down: ^7.1.0
-    esbuild: ^0.12.25
+    esbuild: ^0.14.20
     esbuild-jest: ^0.5.0
     estree-walker: ^3.0.0
     fast-glob: ^3.2.5
@@ -5385,7 +5374,7 @@ __metadata:
     jest-diff: 27.0.6
     jest-file-snapshot: ^0.5.0
     jest-matcher-utils: 27.0.6
-    js-yaml: ^3.14.0
+    js-yaml: ^4.1.0
     leveldown: ^6.1.0
     lodash: ^4.17.20
     mdast: ^3.0.0
@@ -5491,7 +5480,7 @@ __metadata:
   dependencies:
     "@floating-ui/dom": ^0.1.7
     "@floating-ui/react-dom": ^0.3.3
-    "@headlessui/react": ^1.4.2
+    "@headlessui/react": ^1.4.3
     "@heroicons/react": ^1.0.5
     "@react-aria/i18n": ^3.3.4
     "@react-aria/listbox": 3.3.0
@@ -14899,15 +14888,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.12.25":
-  version: 0.12.29
-  resolution: "esbuild@npm:0.12.29"
-  bin:
-    esbuild: bin/esbuild
-  checksum: 940c8f91b1886fd7eb3d4a080893d1b2bd10e9785e3525a743be164b3a8f0dbcbdc9405e8785790c1e8715e0a5cfdfd500bf7e9d70d2e2f024e938a1122a7409
-  languageName: node
-  linkType: hard
-
 "esbuild@npm:^0.12.9":
   version: 0.12.15
   resolution: "esbuild@npm:0.12.15"
@@ -16178,12 +16158,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"final-form@npm:4.20.1":
-  version: 4.20.1
-  resolution: "final-form@npm:4.20.1"
+"final-form@npm:4.20.4":
+  version: 4.20.4
+  resolution: "final-form@npm:4.20.4"
   dependencies:
     "@babel/runtime": ^7.10.0
-  checksum: 007bc31ead06ad92ec9a3a917183c8e36cbf2f4a5a7188fa938b8212953e16580db61eedbfca443edcc8402d671b7828b3514f82f5ab03886611f8ccf8f3f847
+  checksum: a17af0cdc02a7d928201278565e638f4a57a190ef1a9f3d007ab8268a83107b3438b7a0171068a288d7d9e966d380e0b5a0536ddc90c35db7f481e0ea6b2374d
   languageName: node
   linkType: hard
 
@@ -20027,7 +20007,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^3.10.0, js-yaml@npm:^3.13.0, js-yaml@npm:^3.13.1, js-yaml@npm:^3.14.0, js-yaml@npm:^3.6.1":
+"js-yaml@npm:^3.10.0, js-yaml@npm:^3.13.0, js-yaml@npm:^3.13.1, js-yaml@npm:^3.6.1":
   version: 3.14.1
   resolution: "js-yaml@npm:3.14.1"
   dependencies:
@@ -20039,7 +20019,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^4.0.0":
+"js-yaml@npm:^4.1.0":
   version: 4.1.0
   resolution: "js-yaml@npm:4.1.0"
   dependencies:
@@ -30142,7 +30122,7 @@ resolve@^2.0.0-next.3:
   dependencies:
     "@graphql-tools/relay-operation-optimizer": ^6.4.1
     "@graphql-tools/utils": ^8.6.1
-    "@headlessui/react": ^1.4.1
+    "@headlessui/react": ^1.4.3
     "@heroicons/react": ^1.0.4
     "@testing-library/jest-dom": ^5.11.9
     "@testing-library/react": ^12.0.0
@@ -30157,7 +30137,7 @@ resolve@^2.0.0-next.3:
     "@types/react": ^16.9.38
     "@types/yup": ^0.29.10
     crypto-js: ^4.0.0
-    final-form: 4.20.1
+    final-form: 4.20.4
     graphql: ^15.1.0
     graphql-tag: ^2.11.0
     identity-obj-proxy: ^3.0.0
