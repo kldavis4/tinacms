@@ -5274,7 +5274,7 @@ __metadata:
     esbuild: ^0.14.20
     esm: 3.2.25
     express: ^4.17.1
-    fast-glob: ^3.2.4
+    fast-glob: ^3.2.5
     fs-extra: ^9.0.1
     graphql: ^15.1.0
     jest: ^27.0.6
@@ -5536,7 +5536,7 @@ __metadata:
     color-string: ^1.5.3
     cors: ^2.8.5
     express: ^4.17.1
-    final-form: ^4.20.2
+    final-form: 4.20.1
     final-form-arrays: ^3.0.1
     final-form-set-field-data: ^1.0.2
     is-hotkey: ^0.2.0
@@ -15855,7 +15855,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.1.1, fast-glob@npm:^3.2.2, fast-glob@npm:^3.2.4, fast-glob@npm:^3.2.5, fast-glob@npm:^3.2.7":
+"fast-glob@npm:^3.1.1, fast-glob@npm:^3.2.2, fast-glob@npm:^3.2.5, fast-glob@npm:^3.2.7":
   version: 3.2.7
   resolution: "fast-glob@npm:3.2.7"
   dependencies:
@@ -16158,21 +16158,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"final-form@npm:4.20.4":
-  version: 4.20.4
-  resolution: "final-form@npm:4.20.4"
+"final-form@npm:4.20.1":
+  version: 4.20.1
+  resolution: "final-form@npm:4.20.1"
   dependencies:
     "@babel/runtime": ^7.10.0
-  checksum: a17af0cdc02a7d928201278565e638f4a57a190ef1a9f3d007ab8268a83107b3438b7a0171068a288d7d9e966d380e0b5a0536ddc90c35db7f481e0ea6b2374d
-  languageName: node
-  linkType: hard
-
-"final-form@npm:^4.20.2":
-  version: 4.20.2
-  resolution: "final-form@npm:4.20.2"
-  dependencies:
-    "@babel/runtime": ^7.10.0
-  checksum: f3c11f7d5596441ae83f1c6571f61f1e1b5d6e0fc9194b40b533d331c84b55c98f11d621fc9173dd4f68381478fb1a8adba105637e1b9518065095a2131a2c1d
+  checksum: 007bc31ead06ad92ec9a3a917183c8e36cbf2f4a5a7188fa938b8212953e16580db61eedbfca443edcc8402d671b7828b3514f82f5ab03886611f8ccf8f3f847
   languageName: node
   linkType: hard
 
@@ -30137,7 +30128,7 @@ resolve@^2.0.0-next.3:
     "@types/react": ^16.9.38
     "@types/yup": ^0.29.10
     crypto-js: ^4.0.0
-    final-form: 4.20.4
+    final-form: 4.20.1
     graphql: ^15.1.0
     graphql-tag: ^2.11.0
     identity-obj-proxy: ^3.0.0
